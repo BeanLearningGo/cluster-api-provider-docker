@@ -21,7 +21,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/capi-samples/cluster-api-provider-docker/pkg/provisioning"
+	"github.com/beanlearninggo/cluster-api-provider-docker/pkg/provisioning"
 )
 
 func TestRealUseCase(t *testing.T) {

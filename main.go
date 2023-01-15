@@ -34,9 +34,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	infrastructurev1alpha1 "github.com/capi-samples/cluster-api-provider-docker/api/v1alpha1"
-	"github.com/capi-samples/cluster-api-provider-docker/controllers"
-	"github.com/capi-samples/cluster-api-provider-docker/pkg/container"
+	infrastructurev1alpha1 "github.com/beanlearninggo/cluster-api-provider-docker/api/v1alpha1"
+	"github.com/beanlearninggo/cluster-api-provider-docker/controllers"
+	"github.com/beanlearninggo/cluster-api-provider-docker/pkg/container"
 	//+kubebuilder:scaffold:imports
 )
 

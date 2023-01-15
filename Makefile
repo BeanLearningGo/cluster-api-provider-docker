@@ -2,7 +2,7 @@
 # Image URL to use all building/pushing image targets
 TAG ?= dev
 REGISTRY ?= ghcr.io
-ORG ?= capi-samples
+ORG ?= beanlearninggo
 CONTROLLER_IMAGE_NAME := cluster-api-provider-docker
 IMG ?= $(REGISTRY)/$(ORG)/$(CONTROLLER_IMAGE_NAME):$(TAG)
 

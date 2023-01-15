@@ -1,4 +1,4 @@
-module github.com/capi-samples/cluster-api-provider-docker
+module github.com/beanlearninggo/cluster-api-provider-docker
 
 go 1.18
 

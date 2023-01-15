@@ -34,9 +34,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	infrav1 "github.com/capi-samples/cluster-api-provider-docker/api/v1alpha1"
-	"github.com/capi-samples/cluster-api-provider-docker/pkg/container"
-	"github.com/capi-samples/cluster-api-provider-docker/pkg/docker"
+	infrav1 "github.com/beanlearninggo/cluster-api-provider-docker/api/v1alpha1"
+	"github.com/beanlearninggo/cluster-api-provider-docker/pkg/container"
+	"github.com/beanlearninggo/cluster-api-provider-docker/pkg/docker"
 	"github.com/pkg/errors"
 )
 
